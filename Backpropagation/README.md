@@ -15,7 +15,7 @@ This folder contains my Week 4 project from my Deep Learning Journey — where I
 ### ✅ `Backprop_from_Scratch_Classification.ipynb`
 - Implements backpropagation for a **binary classification task**
 - Uses **Binary Cross-Entropy Loss**
-- Includes sigmoid activation and soft decision boundary visualization
+- Includes sigmoid activation 
 
 ---
 
@@ -40,6 +40,6 @@ What gradients really mean
 Why we use optimizers
 
 ### ✍️ Blog Post
-👉 I also wrote a detailed blog post about Backpropagation on Medium:
-[📖 Read my blog on Backpropagation]([https://medium.com/your-blog-url](https://medium.com/@divyanshu1331/week-4-backpropagation-from-scratch-how-neural-networks-learn-979e9673d180))
+👉 I also wrote a detailed blog post about Backpropagation on Medium:  
+[📖 Read my blog on Backpropagation](https://medium.com/@divyanshu1331/week-4-backpropagation-from-scratch-how-neural-networks-learn-979e9673d180)
 
