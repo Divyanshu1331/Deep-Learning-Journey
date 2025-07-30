@@ -41,5 +41,5 @@ Why we use optimizers
 
 ### ✍️ Blog Post
 👉 I also wrote a detailed blog post about Backpropagation on Medium:  
-[📖 Read my blog on Backpropagation]([https://medium.com/@divyanshu1331/week-4-backpropagation-from-scratch-how-neural-networks-learn-979e9673d180](https://medium.com/@divyanshu1331/week-4-backpropagation-from-scratch-how-neural-networks-learn-979e9673d180))
+[📖 Read my blog on Backpropagation](https://medium.com/@divyanshu1331/week-4-backpropagation-from-scratch-how-neural-networks-learn-979e9673d180)
 
