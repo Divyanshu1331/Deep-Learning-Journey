@@ -21,9 +21,7 @@ This folder is part of my **Deep Learning Journey**, where I explored the founda
 ## 📚 What I Learned
 - How the **Perceptron algorithm** works and its significance in deep learning
 - How weights are updated using the rule:  
-  \[
-  w = w + \text{learning_rate} \times (y_{\text{true}} - y_{\text{pred}}) \times x
-  \]
+ `w = w + learning_rate * (y_true - y_pred) * x`
 - How linearly separable data can be classified with Perceptrons
 - Hands-on difference between manual implementation and using Scikit-Learn
 
