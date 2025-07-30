@@ -41,7 +41,7 @@ Understanding the **Perceptron** is essential because:
 ---
 
 ## ✍️ Blog Post
-👉 I also wrote a detailed blog post about Backpropagation on Medium:
-[📖 Read my blog on Backpropagation](https://medium.com/@divyanshu1331/week-1-learning-the-perceptron-from-intuition-to-code-c03033fcba31)
+👉 I also wrote a detailed blog post about Perceptron on Medium:
+[📖 Read my blog on Perceptron](https://medium.com/@divyanshu1331/week-1-learning-the-perceptron-from-intuition-to-code-c03033fcba31)
 
 Stay tuned!
