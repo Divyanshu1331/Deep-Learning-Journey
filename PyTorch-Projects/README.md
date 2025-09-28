@@ -2,9 +2,9 @@
 
 This repository contains hands-on deep learning projects implemented in **PyTorch**, covering Artificial Neural Networks (ANNs), Convolutional Neural Networks (CNNs), and hyperparameter optimization with **Optuna**.  
 
-## 📂 Project Structure  
+### 📂 Project Structure  
 
-PyTorch-Projects/
+PyTorch-Projects
 
 │── 01-ANN_using_Pytorch.ipynb
 
