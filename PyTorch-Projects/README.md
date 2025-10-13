@@ -14,13 +14,88 @@ PyTorch-Projects
 
 ---
 
-## 🔹 01. ANN using PyTorch  
-In this project, an **Artificial Neural Network (ANN)** is trained on the **Adult Income dataset**.  
-- Built a **custom Dataset class** and applied a **transformation function** inside `__getitem__()`.  
-- Showed how **Dataset, DataLoader, and transformation pipeline** work together.  
-- **Final Test Accuracy:** **80.94%**  
+---
 
-📘 [View Notebook](01-ANN_using_Pytorch.ipynb)  
+# 💼 Adult Income Classification using Artificial Neural Network (ANN)
+
+## 🧠 Overview
+This project predicts whether an individual's **income exceeds $50K per year** based on demographic and employment-related attributes from the **UCI Adult Income dataset**.  
+An **Artificial Neural Network (ANN)** is implemented to perform binary classification, demonstrating the application of deep learning in structured (tabular) data.
+
+📘 [View Notebook](01-ANN_using_Pytorch.ipynb) 
+---
+
+## 🧩 Project Workflow
+
+### 🧮 1. Data Loading
+Loaded the **Adult Income dataset** containing features such as age, education, occupation, workclass, marital status, and hours worked per week, along with the target variable — *income category (>50K or ≤50K)*.
+
+---
+
+### 🧹 2. Data Preprocessing
+Performed essential data cleaning and preparation steps:
+- Handled missing or ambiguous entries (e.g., '?')
+- Encoded **categorical variables** using one-hot encoding
+- Normalized numerical features to bring them to a similar scale
+- Split the dataset into **training (80%)** and **testing (20%)** subsets for model evaluation
+
+---
+
+### ⚙️ 3. Feature Scaling
+Applied **StandardScaler** to standardize all numerical columns.  
+This helps stabilize gradient descent during ANN training and improves convergence speed.
+
+---
+
+### 🧠 4. ANN Model Building
+Constructed a feed-forward **Artificial Neural Network** using the following structure:
+- **Input Layer:** Accepts all encoded and scaled features  
+- **Hidden Layers:** Two dense layers with ReLU activation to capture nonlinear relationships  
+- **Output Layer:** Single neuron with sigmoid activation for binary classification  
+
+The model was compiled with:
+- **Optimizer:** Adam  
+- **Loss Function:** Binary Crossentropy  
+- **Metrics:** Accuracy  
+
+---
+
+### 🏋️‍♂️ 5. Model Training
+Trained the ANN on the training dataset for multiple epochs while monitoring validation performance to prevent overfitting.  
+Used **batch-based learning** and **early stopping** to enhance efficiency and model generalization.
+
+---
+
+### 📊 6. Model Evaluation
+Evaluated the model using key metrics:
+- **Accuracy Score**
+- **Confusion Matrix**
+- **Precision, Recall, and F1-score**
+
+Compared predictions on test data with actual labels to assess model reliability in predicting income category.
+
+---
+
+### 📈 7. Results Summary
+
+| Metric | Training Accuracy | Testing Accuracy | Remark |
+|--------|--------------------|------------------|---------|
+| ANN Model | 86.45% | **85.27%** | Performs well with moderate complexity and balanced accuracy |
+
+---
+
+### 🏁 8. Conclusion
+The **Artificial Neural Network** achieved a strong accuracy in predicting high-income individuals based on demographic and professional features.  
+This project highlights the practical use of deep learning for **socioeconomic data analysis and income classification**.
+
+---
+
+📘 **Note:**  
+This README summarizes three Jupyter Notebooks included in this directory:
+1. Data Preprocessing & Encoding  
+2. ANN Model Construction & Training  
+3. Model Evaluation & Performance Comparison
+
 
 ---
 
