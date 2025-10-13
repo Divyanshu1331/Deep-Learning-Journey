@@ -21,16 +21,13 @@ PyTorch-Projects
 ## 🧠 Overview
 This project predicts whether an individual's **income exceeds $50K per year** based on demographic and employment-related attributes from the **UCI Adult Income dataset**.  
 An **Artificial Neural Network (ANN)** is implemented to perform binary classification, demonstrating the application of deep learning in structured (tabular) data.
-
 📘 [View Notebook](01-ANN_using_Pytorch.ipynb) 
----
+
 
 ## 🧩 Project Workflow
 
 ### 🧮 1. Data Loading
 Loaded the **Adult Income dataset** containing features such as age, education, occupation, workclass, marital status, and hours worked per week, along with the target variable — *income category (>50K or ≤50K)*.
-
----
 
 ### 🧹 2. Data Preprocessing
 Performed essential data cleaning and preparation steps:
@@ -39,13 +36,9 @@ Performed essential data cleaning and preparation steps:
 - Normalized numerical features to bring them to a similar scale
 - Split the dataset into **training (80%)** and **testing (20%)** subsets for model evaluation
 
----
-
 ### ⚙️ 3. Feature Scaling
 Applied **StandardScaler** to standardize all numerical columns.  
 This helps stabilize gradient descent during ANN training and improves convergence speed.
-
----
 
 ### 🧠 4. ANN Model Building
 Constructed a feed-forward **Artificial Neural Network** using the following structure:
@@ -58,13 +51,10 @@ The model was compiled with:
 - **Loss Function:** Binary Crossentropy  
 - **Metrics:** Accuracy  
 
----
 
 ### 🏋️‍♂️ 5. Model Training
 Trained the ANN on the training dataset for multiple epochs while monitoring validation performance to prevent overfitting.  
 Used **batch-based learning** and **early stopping** to enhance efficiency and model generalization.
-
----
 
 ### 📊 6. Model Evaluation
 Evaluated the model using key metrics:
@@ -74,7 +64,6 @@ Evaluated the model using key metrics:
 
 Compared predictions on test data with actual labels to assess model reliability in predicting income category.
 
----
 
 ### 📈 7. Results Summary
 
@@ -82,13 +71,11 @@ Compared predictions on test data with actual labels to assess model reliability
 |--------|--------------------|------------------|---------|
 | ANN Model | 86.45% | **85.27%** | Performs well with moderate complexity and balanced accuracy |
 
----
 
 ### 🏁 8. Conclusion
 The **Artificial Neural Network** achieved a strong accuracy in predicting high-income individuals based on demographic and professional features.  
 This project highlights the practical use of deep learning for **socioeconomic data analysis and income classification**.
 
----
 
 📘 **Note:**  
 This README summarizes three Jupyter Notebooks included in this directory:
@@ -96,6 +83,7 @@ This README summarizes three Jupyter Notebooks included in this directory:
 2. ANN Model Construction & Training  
 3. Model Evaluation & Performance Comparison
 
+---
 
 ---
 
@@ -116,6 +104,8 @@ This project focuses on **improving model performance** using **Optuna** for hyp
 
 ---
 
+---
+
 ## 🔹 03. CNN on Fashion-MNIST using PyTorch  
 In this project, a **Convolutional Neural Network (CNN)** is trained on the **Fashion-MNIST dataset**.  
 - Used **torchvision’s built-in dataset** and applied **image transformations** (normalization).  
@@ -125,6 +115,7 @@ In this project, a **Convolutional Neural Network (CNN)** is trained on the **Fa
 
 📘 [View Notebook](03-CNN_on_FashionMNIST_using_pytorch.ipynb)  
 
+---
 ---
 
 ## ✨ Key Learnings Across Projects  
