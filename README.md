@@ -1,6 +1,3 @@
-# deep-learning-journey
-Hands-on deep learning from first principles.   From perceptrons to CNNs — all built, trained, and tested from scratch.
-
 # Deep Learning Journey  
 A continuously evolving repository documenting my hands-on learning of Deep Learning concepts, architectures, and experiments — starting from perceptrons and backpropagation, all the way to CNNs, and PyTorch models.
 
@@ -58,8 +55,7 @@ This repo is structured as **concept → implementation → experiment** so that
 git clone https://github.com/yourusername/deep_learning_journey.git
 ```
 ---
-📬 Follow the Complete Learning Journey
-
+## 📬 Follow the Complete Learning Journey
 I’ve been documenting this deep learning journey week-by-week for 100 days, covering both theory explanations and practical model implementations (with code, visuals, and insights).
 If you want to learn DL in a structured, beginner-friendly, experiment-driven way, you can follow the full series here:
 
