@@ -63,7 +63,7 @@ git clone https://github.com/yourusername/deep_learning_journey.git
 I’ve been documenting this deep learning journey week-by-week for 100 days, covering both theory explanations and practical model implementations (with code, visuals, and insights).
 If you want to learn DL in a structured, beginner-friendly, experiment-driven way, you can follow the full series here:
 
-(🔗 Deep Learning Blog Series – Theory + Hands-on notebooks + Weekly progress)[https://divyanshu1331.medium.com/]
+[🔗 Deep Learning Blog Series](https://divyanshu1331.medium.com/) – Theory + Hands-on notebooks + Weekly progress
 
 ---
 
